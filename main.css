@@ -2,7 +2,16 @@ body {
   padding-top: 70px;
 }
 
-.intro {
-  /*background-image: url('./img/intro-bg.jpg');
-  background-size: cover;*/
+.contact-bg {
+  background-image: url('./img/intro-bg2.jpg');
+  background-size: cover;
 }
+.contact-t {
+    color: white;
+}
+.hover-effect {
+  filter: none;
+}
+.hover-effect:hover {
+    filter: grayscale(100%);
+  }
